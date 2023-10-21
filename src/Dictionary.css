@@ -1,0 +1,35 @@
+.Dictionary section {
+  background-color: white;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.Dictionary form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border-color: rgba(128, 128, 128, 0.262);
+  color: rgba(128, 128, 128, 0.824);
+}
+
+.Dictionary div.hints {
+  color: rgba(17, 17, 17, 0.456);
+  margin: 0;
+}
+
+.Dictionary a {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: rgb(8, 58, 8);
+  color: white;
+  font-size: 15px;
+}
+
+.Dictionary a:hover {
+  color: rgb(8, 58, 8);
+  background-color: white;
+}
