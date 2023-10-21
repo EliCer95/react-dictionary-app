@@ -6,19 +6,30 @@ footer {
   text-align: center;
 }
 
-.container {
-  max-width: 900px;
+h1 {
+  color: rgb(8, 58, 8);
+  font-weight: bold;
 }
 
 body {
-  background-color: rgba(32, 70, 1, 0.091);
+  background: linear-gradient(
+    109.6deg,
+    rgb(251, 250, 225) 11.2%,
+    rgb(206, 240, 185) 47.5%,
+    rgb(100, 163, 111) 100.2%
+  );
   font-family: helvetica;
 }
 .App a {
   text-decoration: none;
-  color: rgb(0, 93, 0);
+  color: rgb(31, 122, 31);
+  transition: all 200ms ease-in-out;
 }
 
 .App a:hover {
-  color: rgb(95, 156, 5);
+  color: rgb(159, 204, 95);
+}
+
+.container {
+  max-width: 900px;
 }

@@ -1,4 +1,5 @@
 .example {
-  color: rgba(16, 16, 16, 0.315);
+  color: #093a08;
+  opacity: 0.5;
   margin: 4px 0px 15px 0px;
 }

@@ -8,7 +8,8 @@ li {
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 7px 10px;
-  color: rgb(164, 164, 164);
-  border: 1px solid rgb(164, 164, 164);
+  color: #093a08;
+  opacity: 0.5;
+  border: 1px solid #093a08;
   border-radius: 20px;
 }

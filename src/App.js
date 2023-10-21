@@ -8,7 +8,7 @@ export default function App() {
         <h1 className="mt-5">📚Dictionary App📚</h1>
       </header>
       <div className="container">
-        <Dictionary keyword="sunset" />
+        <Dictionary keyword="forest" />
       </div>
       <footer className="mt-4 mb-5">
         This app was coded by{" "}
