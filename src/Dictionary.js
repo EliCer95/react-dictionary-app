@@ -16,9 +16,9 @@ export default function Dictionary() {
     if (word.length > 0) {
       //documentation: https://dictionaryapi.dev/
       let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-      axios.get(apiUrl).then(handleResponse);
+      return axios.get(apiUrl).then(handleResponse);
     } else {
-      alert("Please, enter a word");
+      alert("Please, enter a word ✏️");
     }
   }
 
