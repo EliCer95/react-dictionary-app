@@ -2,16 +2,25 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
+import Photos from "./Photos";
 
 export default function Dictionary(props) {
   const [word, setWord] = useState(props.keyword);
   const [result, setResult] = useState(null);
   const [loaded, setLoaded] = useState(false);
+  const [photos, setPhotos] = useState("");
 
+  function handlePicturesResponse(response) {
+    setPhotos(response.data.photos);
+  }
   function search() {
     //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-    return axios.get(apiUrl).then(handleResponse);
+    let sheCodesApiKey = "2f2ob3ct1704051a7e5075a8a7ec2a7e";
+    let sheCodesApiUrl = `https://api.shecodes.io/images/v1/search?query=${word}&key=${sheCodesApiKey}`;
+
+    axios.get(sheCodesApiUrl).then(handlePicturesResponse);
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function handleResponse(response) {
@@ -45,13 +54,14 @@ export default function Dictionary(props) {
               type="search"
               onChange={handleChange}
               placeholder={props.keyword}
-              autofocus={true}
+              autoFocus={true}
               className="form-control search-input"
             />
           </form>
           <div className="hints">suggested words: sunset, wine, yoga,..</div>
         </section>
         <Results results={result} />
+        <Photos photos={photos} />
       </div>
     );
   } else {
