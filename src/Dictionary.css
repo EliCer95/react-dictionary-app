@@ -19,17 +19,6 @@
   margin: 0;
 }
 
-.Dictionary a {
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 10px 15px;
-  text-decoration: none;
-  background-color: rgb(8, 58, 8);
-  color: white;
-  font-size: 15px;
-}
-
-.Dictionary a:hover {
-  color: rgb(8, 58, 8);
-  background-color: white;
+.Dictionary h2 {
+  font-size: 24px;
 }
