@@ -58,7 +58,7 @@ export default function Dictionary(props) {
               className="form-control search-input"
             />
           </form>
-          <div className="hints">suggested words: sunset, wine, yoga,..</div>
+          <div className="hints">suggestions: sunset, wine, yoga,..</div>
         </section>
         <Results results={result} />
         <Photos photos={photos} />

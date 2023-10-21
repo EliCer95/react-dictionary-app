@@ -6,9 +6,14 @@
   background-color: rgb(8, 58, 8);
   color: white;
   font-size: 15px;
+  transition: 200ms all ease-in-out;
 }
 
 .Phonetics a:hover {
   color: rgb(8, 58, 8);
   background-color: white;
+}
+
+.Phonetics span.phonetic {
+  color: rgba(38, 38, 38, 0.495);
 }

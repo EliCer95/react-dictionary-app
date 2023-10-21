@@ -11,7 +11,7 @@ footer {
 }
 
 body {
-  background-color: beige;
+  background-color: rgba(32, 70, 1, 0.091);
   font-family: helvetica;
 }
 .App a {

@@ -11,7 +11,7 @@ export default function App() {
         <Dictionary keyword="sunset" />
       </div>
       <footer className="mt-4 mb-5">
-        This app was made by{" "}
+        This app was coded by{" "}
         <a
           href="https://timely-cascaron-7f0bb7.netlify.app/"
           target="_blank"
