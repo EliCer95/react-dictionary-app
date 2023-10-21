@@ -12,4 +12,13 @@ footer {
 
 body {
   background-color: beige;
+  font-family: helvetica;
+}
+.App a {
+  text-decoration: none;
+  color: rgb(0, 93, 0);
+}
+
+.App a:hover {
+  color: rgb(95, 156, 5);
 }
