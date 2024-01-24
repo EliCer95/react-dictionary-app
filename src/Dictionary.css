@@ -1,17 +1,19 @@
 .Dictionary section {
-  background-color: rgba(255, 255, 255, 0.801);
+  background-color: pink;
   padding: 40px;
   margin: 20px;
   border-radius: 8px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border: 10px solid black;
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); */
 }
 
 .Dictionary form input {
   width: 100%;
   padding: 8px;
   border-radius: 8px;
-  border-color: rgba(128, 128, 128, 0.262);
+  border: 5px solid black;
   color: rgba(128, 128, 128, 0.824);
+  font-size: 20px;
 }
 
 .Dictionary div.hints {
@@ -22,4 +24,7 @@
 .Dictionary h2 {
   font-size: 24px;
   font-weight: bold;
+  color: blueviolet;
+  font-family: RoadRage;
+  letter-spacing: 0.1em;
 }

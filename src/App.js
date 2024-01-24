@@ -4,11 +4,9 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header>
-        <h1 className="mt-5">📚Dictionary App📚</h1>
-      </header>
+      <header>{/* <h1 className="mt-5">📚Dictionary App📚</h1> */}</header>
       <div className="container">
-        <Dictionary keyword="forest" />
+        <Dictionary keyword="purple" />
       </div>
       <footer className="mt-4 mb-5">
         This app was coded by{" "}

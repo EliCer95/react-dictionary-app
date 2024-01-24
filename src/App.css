@@ -1,33 +1,41 @@
+@font-face {
+  font-family: "RoadRage";
+  src: url(./fonts/RoadRage-Regular.ttf);
+}
+
 header {
   text-align: center;
 }
 
 footer {
   text-align: center;
+  font-family: RoadRage;
+  letter-spacing: 0.1em;
+  font-size: 20px;
 }
 
 h1 {
-  color: rgb(8, 58, 8);
+  color: blueviolet;
   font-weight: bold;
+  text-align: center;
+  font-family: RoadRage;
+  letter-spacing: 0.3em;
+  font-size: 50px;
 }
 
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(251, 250, 225) 11.2%,
-    rgb(206, 240, 185) 47.5%,
-    rgb(100, 163, 111) 100.2%
-  );
-  font-family: helvetica;
+  font-family: RoadRage;
+  background-color: blueviolet;
 }
 .App a {
   text-decoration: none;
-  color: rgb(31, 122, 31);
+  color: pink;
   transition: all 200ms ease-in-out;
+  font-family: RoadRage;
 }
 
 .App a:hover {
-  color: rgb(159, 204, 95);
+  color: rgb(187, 141, 148);
 }
 
 .container {

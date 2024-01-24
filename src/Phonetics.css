@@ -1,17 +1,17 @@
 .Phonetics a {
-  border: 1px solid black;
   border-radius: 20px;
   padding: 10px 15px;
   text-decoration: none;
-  background-color: rgb(8, 58, 8);
-  color: white;
+  background-color: blueviolet;
+  color: pink;
   font-size: 15px;
   transition: 200ms all ease-in-out;
 }
 
 .Phonetics a:hover {
-  color: rgb(8, 58, 8);
-  background-color: white;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  background-color: pink;
 }
 
 .Phonetics span.phonetic {

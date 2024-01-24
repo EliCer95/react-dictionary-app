@@ -45,7 +45,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h2>What word do you want to look up?</h2>
+          <h1>Type a word!</h1>
           <form
             className="mt-4 mb-2 d-flex justify-content-center"
             onSubmit={handleSubmit}
